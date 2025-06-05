@@ -1,0 +1,19 @@
+{"time":"2025-06-02T11:49:42.20532218+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2025-06-02T11:49:42.205337678+05:30","level":"INFO","msg":"created symlink","path":"/data1/SANCHAYANghosh01/SecureLLMAlign/wandb/run-20250602_114942-1kopo2z4/logs/debug-core.log"}
+{"time":"2025-06-02T11:49:42.31280582+05:30","level":"INFO","msg":"created new stream","id":"1kopo2z4"}
+{"time":"2025-06-02T11:49:42.312885228+05:30","level":"INFO","msg":"stream: started","id":"1kopo2z4"}
+{"time":"2025-06-02T11:49:42.312956142+05:30","level":"INFO","msg":"sender: started","stream_id":"1kopo2z4"}
+{"time":"2025-06-02T11:49:42.31294098+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"1kopo2z4"}}
+{"time":"2025-06-02T11:49:42.312933767+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1kopo2z4"}}
+{"time":"2025-06-02T11:49:42.859657116+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T11:49:43.103925922+05:30","level":"INFO","msg":"stream: closing","id":"1kopo2z4"}
+{"time":"2025-06-02T11:49:43.103991775+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-02T11:49:43.104685416+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-02T11:49:44.164501033+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-06-02T11:49:44.164513108+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-06-02T11:49:44.164516025+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-06-02T11:49:46.02358318+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-02T11:49:46.424131498+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"1kopo2z4"}}
+{"time":"2025-06-02T11:49:46.424238772+05:30","level":"INFO","msg":"sender: closed","stream_id":"1kopo2z4"}
+{"time":"2025-06-02T11:49:46.424213797+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1kopo2z4"}}
+{"time":"2025-06-02T11:49:46.424369932+05:30","level":"INFO","msg":"stream: closed","id":"1kopo2z4"}

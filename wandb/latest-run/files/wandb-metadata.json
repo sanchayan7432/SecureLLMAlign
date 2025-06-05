@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.8.0-48-generic-x86_64-with-glibc2.35",
+  "python":  "3.10.16",
+  "startedAt":  "2025-06-02T06:19:42.202762Z",
+  "cuda":  "9.0.176",
+  "program":  "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py",
+  "codePath":  "fine_tuning.py",
+  "email":  "sanchayanghosh001@gmail.com",
+  "root":  "/data1/SANCHAYANghosh01/SecureLLMAlign",
+  "host":  "user-SSI200FOA-54",
+  "username":  "mist_lab",
+  "executable":  "/data/kshitij/miniconda3/envs/sanenv/bin/python",
+  "codePathLocal":  "fine_tuning.py",
+  "cpu_count":  12,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "943412031488",
+      "used":  "550302367744"
+    }
+  },
+  "memory":  {
+    "total":  "134694629376"
+  },
+  "cpu":  {
+    "count":  12,
+    "countLogical":  24
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

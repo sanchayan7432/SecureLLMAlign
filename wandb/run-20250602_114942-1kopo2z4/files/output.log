@@ -1,0 +1,60 @@
+  0%|                                                                                                                                                       | 0/5 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 61, in <module>
+    fine_tune()
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 57, in fine_tune
+    trainer.train()
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/trainer.py", line 2345, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/accelerate/data_loader.py", line 557, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 20, in __getitem__
+    prompt_tok = self.tokenizer(prompt, truncation=True, padding="max_length", max_length=self.max_length, return_tensors="pt")
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3016, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3126, in _call_one
+    return self.encode_plus(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3193, in encode_plus
+    padding_strategy, truncation_strategy, max_length, kwargs = self._get_padding_truncation_strategies(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2918, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+Traceback (most recent call last):
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 61, in <module>
+    fine_tune()
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 57, in fine_tune
+    trainer.train()
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/trainer.py", line 2052, in train
+    return inner_training_loop(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/trainer.py", line 2345, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/accelerate/data_loader.py", line 557, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data1/SANCHAYANghosh01/SecureLLMAlign/fine_tuning.py", line 20, in __getitem__
+    prompt_tok = self.tokenizer(prompt, truncation=True, padding="max_length", max_length=self.max_length, return_tensors="pt")
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3016, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3126, in _call_one
+    return self.encode_plus(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3193, in encode_plus
+    padding_strategy, truncation_strategy, max_length, kwargs = self._get_padding_truncation_strategies(
+  File "/data/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2918, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
